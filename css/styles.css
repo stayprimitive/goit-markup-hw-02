@@ -12,9 +12,9 @@ ul {
 }
 
 
-body{
+body {
 font-family: var(--primary-font)
-
+var(--hover-color)
 }
 
 /*========== HEADER ==========*/
@@ -67,13 +67,13 @@ text-decoration: none;
 /*========== MAIN ==========*/
 
 .hero-title{
-font-family: 'Roboto';
+font-family: var(--primary-font);
 font-weight: 600;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-/*color: #FFFFFF;*/
+color: #FFFFFF;
 }
 
 .hero-button{
@@ -148,11 +148,49 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-/*color: #F4F4FD;*/
+color: #F4F4FD;
 }
 
 .footer-text-color{
-/*color: #E7E9FC;*/
+color: #E7E9FC;
 
 }
 /*========== /FOOTER ==========*/
+
+
+
+
+/*-----======[ PORTFOLIO PAGE ]======-----*/
+
+.portfolio-bttn{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--hover-color);
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+}
+
+.portfolio-bttn:hover,
+.portfolio-bttn:focus{
+
+font-family: var(--primary-font);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: var(--hover-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+cursor: pointer;
+}
