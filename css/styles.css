@@ -14,7 +14,10 @@ ul {
 
 body {
 font-family: var(--primary-font)
-var(--hover-color)
+}
+
+body {
+    color: var(--primary-color);
 }
 
 /*========== HEADER ==========*/
