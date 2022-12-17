@@ -27,6 +27,14 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
 }
 
 .logo-color{
@@ -47,7 +55,6 @@ color: var(--hover-color)
 }
 
 .contacts-nav-link{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -119,9 +126,8 @@ cursor: pointer;
 .section-text{
 
     font-family: var(--primary-font);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
