@@ -31,10 +31,7 @@ body {
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
+color: var(--primary-color);
 }
 
 .logo-color{
